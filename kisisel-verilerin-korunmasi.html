@@ -55,18 +55,6 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init({duration: 800});</script>
 
-<script>
-if (!window.location.href.includes("?mobile")) {
-	if (screen.width <= 900) {
-		window.location.href = window.location.href + "?mobile";
-	}
-}else {
-	if (screen.width > 900) {
-		window.location.href = window.location.href.replace("?mobile","");
-	}
-}
-</script>
-
 <header>
 	<div class="back">
 		<a href="/"><div class="header_logo" style="background-image: url(https://www.duzenliyemek.com/wp-content/themes/duzenliyemek_theme/images/logo_text.svg)"></div></a>
